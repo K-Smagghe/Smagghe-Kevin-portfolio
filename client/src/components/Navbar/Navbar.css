@@ -13,7 +13,7 @@
   .NavBar-Mobile-Lien a {
     text-decoration: none;
     color: white;
-    transition: all 0.3s ease; /* Rend le changement fluide */
+    transition: all 0.3s ease;
     display: inline-block;
   }
 
