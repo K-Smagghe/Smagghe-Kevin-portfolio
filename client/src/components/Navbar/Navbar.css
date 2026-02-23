@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+  .NavBar-Mobile {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    color: white;
+    background: linear-gradient(to right, #0468b8, #f31c4b);
+    font-weight: 900;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .NavBar-Mobile-Lien a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease; /* Rend le changement fluide */
+    display: inline-block;
+  }
+
+  .NavBar-Mobile-Lien a:hover {
+    transform: scale(1.1);
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+  }
+}
