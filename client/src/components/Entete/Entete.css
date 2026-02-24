@@ -29,13 +29,11 @@
   font-size: 1.8rem;
   font-weight: 900;
 
-  /* Application du dégradé */
   background: linear-gradient(to right, #0468b8, #f31c4b);
-  -webkit-background-clip: text; /* Pour Chrome, Safari, Edge */
-  background-clip: text; /* Standard */
-  color: transparent; /* Rend le texte transparent pour voir le dégradé derrière */
-
-  display: inline-block; /* Important pour que le dégradé s'adapte bien au texte */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
   animation: dynamicFade 0.6s ease-out;
 }
 
