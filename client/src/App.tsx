@@ -9,8 +9,10 @@ function App() {
     <>
       <Navbar />
       <Entete />
-      <PicturePart />
-      <APropos />
+      <div className="PictureAndApropos">
+        <PicturePart />
+        <APropos />
+      </div>
     </>
   );
 }
