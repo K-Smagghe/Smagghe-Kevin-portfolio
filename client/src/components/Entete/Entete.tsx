@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import "../Entete/Entete.css";
 
 const Entete: React.FC = () => {
-  // Liste unique de toutes tes compétences
   const competences: string[] = [
     "# Développeur web",
     "# Développeur web mobile",
