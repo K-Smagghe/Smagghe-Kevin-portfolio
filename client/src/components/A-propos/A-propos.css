@@ -1,0 +1,27 @@
+@font-face {
+  font-family: DoppioOne;
+  src: url("../../assets/fonts/DoppioOne-Regular.ttf");
+}
+
+@media (max-width: 1000px) {
+  .A-Propos {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .A-Propos h3 {
+    padding: 2rem;
+    font-size: 2rem;
+    font-family: "DoppioOne", sans-serif;
+  }
+
+  .A-Propos p {
+    font-size: 1rem;
+    font-family: "DoppioOne", sans-serif;
+    padding-bottom: 2rem;
+  }
+}
