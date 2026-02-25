@@ -13,4 +13,7 @@
   .PictureAndApropos {
     flex-direction: column;
   }
+  body {
+    padding-top: 120px;
+  }
 }
