@@ -1,5 +1,5 @@
 import "./App.css";
-import Footer from "./Footer/footer";
+import Footer from "./Footer/Footer";
 import APropos from "./components/A-propos/A-propos";
 import Entete from "./components/Entete/Entete";
 import MesTechnos from "./components/Mes-technos/MesTechnos";
