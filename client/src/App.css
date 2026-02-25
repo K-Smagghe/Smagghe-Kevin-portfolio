@@ -1,5 +1,16 @@
 * {
-  box-sizing: 0;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.PictureAndApropos {
+  display: flex;
+  min-height: 400px;
+}
+
+@media (max-width: 1000px) {
+  .PictureAndApropos {
+    flex-direction: column;
+  }
 }
