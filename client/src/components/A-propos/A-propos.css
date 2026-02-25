@@ -1,0 +1,52 @@
+@font-face {
+  font-family: DoppioOne;
+  src: url("../../assets/fonts/DoppioOne-Regular.ttf");
+}
+
+@media (max-width: 1000px) {
+  .A-Propos {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .A-Propos h3 {
+    padding: 2rem;
+    font-size: 2rem;
+    font-family: "DoppioOne", sans-serif;
+  }
+
+  .A-Propos p {
+    font-size: 1rem;
+    font-family: "DoppioOne", sans-serif;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .A-Propos {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 3rem;
+  }
+
+  .A-Propos h3 {
+    font-size: 2rem;
+    font-family: "DoppioOne", sans-serif;
+    margin-bottom: 1.5rem;
+    padding: 0;
+  }
+
+  .A-Propos p {
+    font-size: 1rem;
+    font-family: "DoppioOne", sans-serif;
+    line-height: 1.6;
+  }
+}
