@@ -1,0 +1,55 @@
+.carousel-wrapper {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.carousel-title {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.card-gradient-border {
+  background: linear-gradient(135deg, #3b82f6, #f31c4b);
+  padding: 2px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.card-content {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+}
+
+.tech-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+.tech-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000 !important;
+  transform: scale(0.5);
+  font-weight: bold;
+}
