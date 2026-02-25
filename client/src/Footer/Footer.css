@@ -1,0 +1,53 @@
+.card-container {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 40px 20px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  font-family: "Arial Black", sans-serif;
+  text-align: center;
+}
+
+.download-section {
+  margin-bottom: 20px;
+}
+
+.download-button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.download-button:hover {
+  transform: scale(1.05);
+}
+
+.divider {
+  border: none;
+  border-top: 2px solid #ffffff;
+  margin: 20px 0;
+  width: 90%;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.social-links a {
+  color: #ffffff;
+  transition: opacity 0.2s;
+}
+
+.social-links a:hover {
+  opacity: 0.7;
+}

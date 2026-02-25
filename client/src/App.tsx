@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./Footer/footer";
 import APropos from "./components/A-propos/A-propos";
 import Entete from "./components/Entete/Entete";
 import MesTechnos from "./components/Mes-technos/MesTechnos";
@@ -15,6 +16,7 @@ function App() {
         <APropos />
       </div>
       <MesTechnos />
+      <Footer />
     </>
   );
 }
