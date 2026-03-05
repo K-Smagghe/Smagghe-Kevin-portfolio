@@ -3,27 +3,68 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "../Mes-technos/MesTechnos.css";
+import Reacticone from "../../assets/Mes-technos-img/React-icon.svg";
+import Css from "../../assets/Mes-technos-img/css-3.svg";
+import Express from "../../assets/Mes-technos-img/express-109.svg";
+import giticone from "../../assets/Mes-technos-img/git-icon.svg";
+import Githubicone from "../../assets/Mes-technos-img/github-icon-1.svg";
+import Html from "../../assets/Mes-technos-img/html-1.svg";
+import Javascript from "../../assets/Mes-technos-img/javascript-1.svg";
+import Mysqlicone from "../../assets/Mes-technos-img/mysql-logo-pure.svg";
+import NodeJs from "../../assets/Mes-technos-img/nodejs-icon.svg";
+import Typescript from "../../assets/Mes-technos-img/typescript.svg";
 
 const technos = [
   {
     id: 1,
     name: "HTML",
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    img: Html,
   },
   {
     id: 2,
     name: "CSS",
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    img: Css,
   },
   {
     id: 3,
-    name: "React",
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    name: "JavaScript",
+    img: Javascript,
   },
   {
     id: 4,
     name: "TypeScript",
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    img: Typescript,
+  },
+  {
+    id: 5,
+    name: "NodeJS",
+    img: NodeJs,
+  },
+
+  {
+    id: 6,
+    name: "REACT",
+    img: Reacticone,
+  },
+  {
+    id: 7,
+    name: "MySQL",
+    img: Mysqlicone,
+  },
+  {
+    id: 8,
+    name: "Express",
+    img: Express,
+  },
+  {
+    id: 9,
+    name: "GIT",
+    img: giticone,
+  },
+  {
+    id: 10,
+    name: "GITHUB",
+    img: Githubicone,
   },
 ];
 
