@@ -1,7 +1,7 @@
 import "./App.css";
-import Footer from "./Footer/footer";
 import APropos from "./components/A-propos/A-propos";
 import Entete from "./components/Entete/Entete";
+import Footer from "./components/Footer/Footer";
 import MesTechnos from "./components/Mes-technos/MesTechnos";
 import Navbar from "./components/Navbar/Navbar";
 import PicturePart from "./components/Picture-part/PicturePart";
