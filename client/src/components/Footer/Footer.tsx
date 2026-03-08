@@ -4,7 +4,6 @@ import "../Footer/Footer.css";
 function Footer() {
   return (
     <footer className="card-container">
-      {/* Texte Copyright à gauche (visible uniquement sur PC) */}
       <div className="copyright">
         2026 Smagghe kévin :<br />
         tous droits réservés
@@ -12,7 +11,6 @@ function Footer() {
 
       <hr className="divider" />
 
-      {/* Section Icônes + Liens */}
       <div className="social-links">
         <a
           href="mailto:kevin.smagghe.pro@gmail.com"
@@ -48,7 +46,6 @@ function Footer() {
 
       <hr className="divider" />
 
-      {/* Bouton de téléchargement */}
       <div className="download-section">
         <button type="button" className="download-button">
           Télécharger mon CV
