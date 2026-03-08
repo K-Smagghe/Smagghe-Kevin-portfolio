@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="navbar-container">
         <ul className="NavBar-Mobile">
           <li className="NavBar-Mobile-Lien">
-            <Link to="/a-propos">A PROPOS</Link>
+            <Link to="/">A PROPOS</Link>
           </li>
           <li className="NavBar-Mobile-Lien">
             <Link to="/portfolio"> PORTFOLIO</Link>
@@ -22,7 +22,7 @@ function Navbar() {
         </div>
         <ul className="NavBar-Desktop">
           <li className="NavBar-Desktop-Lien">
-            <Link to="/a-propos">A PROPOS</Link>
+            <Link to="/">A PROPOS</Link>
           </li>
           <li className="NavBar-Desktop-Lien">
             <Link to="/portfolio"> PORTFOLIO</Link>
