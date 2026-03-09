@@ -11,7 +11,10 @@ function PicturePart() {
           <span className="status-dot" />
           <div className="status-text">
             <strong>Actuellement</strong>
-            <span>Je cherche mon prochain projet.</span>
+            <span>
+              Site en construction. Merci de votre patience, je reviens très
+              vite !
+            </span>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import "../Navbar/Navbar.css";
-import { Link } from "react-router";
+import { NavLink } from "react-router";
 
 function Navbar() {
   return (
@@ -7,28 +7,30 @@ function Navbar() {
       <nav className="navbar-container">
         <ul className="NavBar-Mobile">
           <li className="NavBar-Mobile-Lien">
-            <Link to="/">A PROPOS</Link>
+            <NavLink to="/">A PROPOS</NavLink>
           </li>
           <li className="NavBar-Mobile-Lien">
-            <Link to="/portfolio"> PORTFOLIO</Link>
+            <NavLink to="/portfolio">PORTFOLIO</NavLink>
           </li>
           <li className="NavBar-Mobile-Lien">
-            <Link to="/contact">CONTACT</Link>
+            <NavLink to="/contact">CONTACT</NavLink>
           </li>
         </ul>
+
         <div className="NavBar-Desktop-titre">
           <h1>SMAGGHE KEVIN</h1>
           <h2>DEVELOPPEUR WEB ET WEB MOBILE</h2>
         </div>
+
         <ul className="NavBar-Desktop">
           <li className="NavBar-Desktop-Lien">
-            <Link to="/">A PROPOS</Link>
+            <NavLink to="/">A PROPOS</NavLink>
           </li>
           <li className="NavBar-Desktop-Lien">
-            <Link to="/portfolio"> PORTFOLIO</Link>
+            <NavLink to="/portfolio">PORTFOLIO</NavLink>
           </li>
           <li className="NavBar-Desktop-Lien">
-            <Link to="/contact">CONTACT</Link>
+            <NavLink to="/contact">CONTACT</NavLink>
           </li>
         </ul>
       </nav>
