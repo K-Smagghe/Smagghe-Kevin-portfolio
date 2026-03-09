@@ -15,4 +15,8 @@ router.post("/api/items", itemActions.add);
 
 /* ************************************************************************* */
 
+import messageAction from "./modules/message/messageAction";
+
+router.post("/api/message", messageAction.sendMail);
+
 export default router;

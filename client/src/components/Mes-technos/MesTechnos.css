@@ -1,16 +1,16 @@
-.carousel-wrapper {
-  max-width: 400px;
+.technos-wrapper {
+  width: 100%;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 20px;
   text-align: center;
-  position: relative;
 }
 
-.carousel-title {
-  font-size: 1rem;
+.technos-title {
+  font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: #333;
 }
 
@@ -19,7 +19,13 @@
   padding: 2px;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  margin: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.card-gradient-border:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 .card-content {
@@ -31,12 +37,20 @@
   align-items: center;
   justify-content: center;
   min-height: 150px;
+  height: 100%;
+}
+
+.tech-icons-container {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
 }
 
 .tech-icon {
   width: 60px;
   height: 60px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   object-fit: contain;
 }
 
@@ -47,9 +61,42 @@
   margin: 0;
 }
 
+.mobile-carousel {
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.mobile-carousel .card-gradient-border {
+  margin: 10px;
+}
+
 .swiper-button-next,
 .swiper-button-prev {
   color: #000 !important;
   transform: scale(0.5);
   font-weight: bold;
+}
+
+.desktop-grid {
+  display: none;
+}
+
+@media (min-width: 1000px) {
+  .mobile-carousel {
+    display: none;
+  }
+
+  .desktop-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .desktop-grid .card-gradient-border {
+    flex: 0 0 300px;
+    max-width: 100%;
+  }
 }

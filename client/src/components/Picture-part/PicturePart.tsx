@@ -1,5 +1,5 @@
 import "./PicturePart.css";
-import profileImage from "../../assets/images/299202256_8634557109903787_654672307954254383_n (1).jpg";
+import profileImage from "../../assets/images/474826999_29197470013185862_8591616171521464697_n (8).jpg";
 
 function PicturePart() {
   return (
@@ -11,7 +11,10 @@ function PicturePart() {
           <span className="status-dot" />
           <div className="status-text">
             <strong>Actuellement</strong>
-            <span>Je cherche mon prochain projet.</span>
+            <span>
+              Site en construction. Merci de votre patience, je reviens très
+              vite !
+            </span>
           </div>
         </div>
       </div>

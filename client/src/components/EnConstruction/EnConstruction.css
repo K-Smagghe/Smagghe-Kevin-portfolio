@@ -1,0 +1,100 @@
+.maintenance-container {
+  min-height: 70vh; /* Ajusté car pas de header/footer ici */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f0f0f; /* Le noir profond de ton site */
+  color: #ffffff;
+  font-family: "Arial", sans-serif; /* À adapter selon ta police (ex: Montserrat) */
+  padding: 20px;
+}
+
+.maintenance-content {
+  text-align: center;
+  max-width: 800px;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 6px 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ff0055; /* Ton rose vif */
+  border-radius: 20px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+  color: #ff0055;
+}
+
+.maintenance-title {
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #0084ff, #ff0055);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.maintenance-description {
+  font-size: 1.2rem;
+  color: #a0a0a0;
+  max-width: 600px;
+  margin: 0 auto 3rem auto;
+  line-height: 1.6;
+}
+
+/* Barre de progression stylisée */
+.loader-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 6px;
+  background: #222;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.progress-fill {
+  width: 75%; /* Valeur arbitraire */
+  height: 100%;
+  background: linear-gradient(90deg, #0084ff, #ff0055);
+  animation: pulse 2s infinite ease-in-out;
+}
+
+.progress-status {
+  font-size: 0.85rem;
+  color: #666;
+  font-style: italic;
+}
+
+.tech-stack-minimal {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  opacity: 0.5;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
