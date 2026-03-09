@@ -6,15 +6,23 @@ function APropos() {
       <div className="A-Propos">
         <h3>A PROPOS</h3>
         <p>
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-          search for 'lorem ipsum' will uncover many web sites still in their
-          infancy. Various versions have evolved over the years, sometimes by
-          accident, sometimes on purpose (injected humour and the like).
+          Originaire de Dunkerque, je suis un véritable passionné de technologie
+          qui a choisi d’ajouter une corde technique à son arc. Mon parcours m’a
+          permis de pratiquer de nombreux outils métiers en conditions réelles.
+          Aujourd’hui, je transforme cette connaissance du terrain en force de
+          développement : je sais identifier ce qui bloque l’utilisateur et je
+          crée des interfaces fluides qui simplifient vraiment son travail
+          quotidien. Ce qui me définit ? Ma polyvalence et, surtout, ma vision
+          "utilisateur". Là où le monde de l’informatique manque parfois de
+          pragmatisme, j’apporte un regard concret : je sais qu’un outil n’est
+          bon que s’il est utile et compris par ceux qui s’en servent. Bien que
+          je fasse mes premiers pas en tant que développeur, ma curiosité pour
+          la tech est ancienne et mon autonomie est ma force. Je ne cherche pas
+          à être un expert théorique, mais un créateur de solutions efficaces
+          qui font le pont entre les besoins métier et la technique.
+          <br />
+          <br />
+          Travaillons ensemble !
         </p>
       </div>
     </>
