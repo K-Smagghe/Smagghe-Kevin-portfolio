@@ -1,5 +1,11 @@
+import UnderConstruction from "../components/EnConstruction/EnConstruction";
+
 function PortFolio() {
-  return <></>;
+  return (
+    <>
+      <UnderConstruction />
+    </>
+  );
 }
 
 export default PortFolio;
